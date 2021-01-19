@@ -1,0 +1,46 @@
+
+.container{
+max-width:100%;
+background-color: blanchedalmond;
+margin:0%;
+padding:50px;
+font-family: 'Montserrat', sans-serif;
+
+
+
+}
+.container h1,p{
+    text-align:center;
+    
+}
+h1{
+    font-style:inherit;
+    font-size:40px;
+    font-family: 'Montserrat'
+}
+p{
+    font-size:27px;
+    font-style:oblique;
+    font-family: 'Montserrat'
+    
+}
+
+input,textarea{
+    width: 100%;
+    margin:20px,auto;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    
+}
+form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    padding: 5px;
+    cursor:pointer;
+
+}
